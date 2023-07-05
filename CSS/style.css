@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* Hero section CSS */
+.top-banner{
+    background-image:url(/img/header-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 15% -10% 0% 10%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: -80px;
+}
+.hello{
+    font-weight: 500px;
+} 
+.name{
+    font-size: 30px;
+    color: #EE648c; 
+    padding-bottom: 10px;  
+}
+.pera{
+     font-size: 18px;
+     margin: 15px 0px; 
+     color: #747474;
+}
+.hire-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 600px;
+    background-image: linear-gradient(45deg,#Ec5093,#f1446d); 
+    color: white;
+    border-radius: 5px; 
+}
+/* Hero section CSS end  */ 
+
+/* Biyogrhapy section */
+
+.biography-section{
+    background-image: url(/img/biography-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography-img{
+    width: 100%;
+    margin: -7% 0% 10% -10%;
+}
+.bio{
+    margin-top: 150px;
+} 
+
+/* latest work section  */
+.work-area{
+    background-image: url(/img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.latest{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.work-item{
+    width: 25%;
+    float: left;
+    
+}
+.work-item img{
+    width: 100%;
+    margin-bottom: 30%; 
+}
+/* footer area  */
+.footer-area{
+background-image: url(/img/footer-bg.png);    
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-text h2{
+    margin-bottom: 40px;
+}
+.footer-text p{
+    padding-top: 30px;
+    width: 500px;
+    margin: auto;
+    font-size: 13px;
+    margin-bottom: 40px;
+
+}
+.mail-box{
+    width: 400px;
+    padding: 20px;
+    background-image: linear-gradient(45deg,#Ec5093,#f1446d);
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
